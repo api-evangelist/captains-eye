@@ -1,8 +1,27 @@
 aid: captains-eye
 name: Captain's Eye
-description: Captain's Eye is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Captain's Eye is a Haifa, Israel-based maritime AI company (founded 2020 by Uri Ben Dor
+  and Doron Oizerovich, backed by Techstars) that delivers real-time video analytics software for
+  maritime and industrial safety. Its SaaS platform connects to existing CCTV cameras, radar, and
+  thermal sensors aboard merchant vessels, yachts, cruise ships, ports, and on-land petrochemical and
+  energy sites, applying custom neural networks and commercial AI models to detect fires, smoke, leaks,
+  sea pollution, missing protective gear, unauthorized access, and equipment failures. It provides
+  real-time alerts, remote monitoring, incident documentation, and operational data collection,
+  monitoring 5,000+ cameras and having detected 100,000+ events. Access is delivered through a private
+  web application and mobile apps rather than a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/captains-eye/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/673b2aab07b7098ca69d93dd/673b30c40cf3ad16d4a2fc3a_Webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Maritime
+- Video Analytics
+- Artificial Intelligence
+- Computer Vision
+- Safety
+- Monitoring
+- Shipping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://captain-eye.com/
+  url: https://www.captain-eye.com/
+- type: Product
+  url: https://www.captain-eye.com/product
+- type: About
+  url: https://www.captain-eye.com/about
+- type: Resources
+  url: https://www.captain-eye.com/resources
+- type: Support
+  url: https://www.captain-eye.com/contact-us
+- type: Login
+  url: https://app.captain-eye.com/
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.captaineye.mobile
+- type: DomainSecurity
+  url: security/captains-eye-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
