@@ -47,7 +47,7 @@ tags:
 - Maritime
 - Video Analytics
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Safety
 - Monitoring
 - Shipping
@@ -60,6 +60,7 @@ tags_raw:
 - Safety
 - Monitoring
 - Shipping
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
